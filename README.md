@@ -6,13 +6,13 @@ Repeat a character number of times.
 
 Clone repository:
 
-```
+```bash
 git clone https://github.com/endormi/repeat.git
 ```
 
 Run:
 
-```
+```bash
 usage: repeat.py [-h] -c C [-n N] [-o out]
 
 Repeat a character number of times.
@@ -30,7 +30,7 @@ Optional arguments:
 
 Examples:
 
-```
+```bash
 # displays in terminal
 python repeat.py -c 0 -n 6
 
