@@ -19,13 +19,11 @@ Repeat a character number of times.
 
 optional arguments:
   -h, --help       show this help message and exit
-
-Required arguments:
-  -c C, --c C      character to repeat
-
-Optional arguments:
   -n N, --n N      repeat number of times
   -o out, --o out  PATH to output file
+
+required arguments:
+  -c C, --c C      character to repeat
 ```
 
 Examples:
