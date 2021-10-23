@@ -1,8 +1,5 @@
 import argparse, sys
 
-def validate_length(char):
-    if (len(char) == 1): return True
-
 def repeat_char(char, num_of_times):
     return (char * (num_of_times//len(char) + 1))[:num_of_times]
 
@@ -17,7 +14,7 @@ def main():
                         help='PATH to output file')
     args = parser.parse_args()
 
-    if not validate_length(args.c):
+    if len(args.c) != 1:
         print("Too many characters, only use 1.")
         sys.exit()
 
