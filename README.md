@@ -1,6 +1,6 @@
 # Repeat
 
-Repeat a character number of times.
+Repeat a single character number of times.
 
 ## Usage:
 
