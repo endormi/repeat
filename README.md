@@ -15,7 +15,7 @@ Run:
 ```bash
 usage: repeat.py [-h] -c C [-n N] [-o out]
 
-Repeat a character number of times.
+Repeat a single character number of times.
 
 optional arguments:
   -h, --help       show this help message and exit
